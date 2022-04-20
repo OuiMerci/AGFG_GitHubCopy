@@ -1,0 +1,18 @@
+{
+    "name": "AGFG.Activities",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f24c5dc04d589734ea59a995eb6b458d",
+        "GUID:47fad5009be28374387c698dd1203af2",
+        "GUID:fef3c76d518d6974b93e897f8f54c5c1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

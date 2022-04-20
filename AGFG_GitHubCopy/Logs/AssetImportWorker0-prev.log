@@ -1,0 +1,385 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.10f1 (ee872746220e) revision 15632167'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7474 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Projects/ArcadeCar/ArcadeCar
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54690
+Successfully changed project path to: E:/Projects/ArcadeCar/ArcadeCar
+E:/Projects/ArcadeCar/ArcadeCar
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 101.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.10f1 (ee872746220e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Projects/ArcadeCar/ArcadeCar/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     3737 MB
+    Driver:   27.20.14536.3
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007336 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 65.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.586 seconds
+Domain Reload Profiling:
+	ReloadAssembly (587ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (423ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (101ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006176 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 65.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.695 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1696ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1496ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (1091ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (774ms)
+				ProcessInitializeOnLoadMethodAttributes (168ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3295 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (1.9 MB). Loaded Objects now: 3864.
+Memory consumption went from 164.7 MB to 162.9 MB.
+Total: 26.208100 ms (FindLiveObjects: 0.290100 ms CreateObjectMapping: 0.208200 ms MarkObjects: 25.127700 ms  DeleteObjects: 0.579100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 205237.639991 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.prefab
+  artifactKey: Guid(48742e39209bca649b5124a1c0c63504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.prefab using Guid(48742e39209bca649b5124a1c0c63504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18af02531550043e0b5c8e5326da7a3') in 0.244418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 92.786402 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Materials/N00_000_00_FaceMouth_00_FACE (Instance).asset
+  artifactKey: Guid(9d433f06a2ebbaf4d9aadef563112900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Materials/N00_000_00_FaceMouth_00_FACE (Instance).asset using Guid(9d433f06a2ebbaf4d9aadef563112900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc32c9af227bfbe89351efbc78382367') in 0.039972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.AvatarDescription/AvatarDescription.asset
+  artifactKey: Guid(70c9008370f44cb46998ce9e69bb0bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.AvatarDescription/AvatarDescription.asset using Guid(70c9008370f44cb46998ce9e69bb0bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4698efd0efbfc931f940f63c5e2faf4') in 0.002013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/LookUp.asset
+  artifactKey: Guid(d17fc43323e0ddd4a849863198650e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/LookUp.asset using Guid(d17fc43323e0ddd4a849863198650e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264d64b2670ff6323337f5c1fe783bd5') in 0.001820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001612 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.Neutral.asset
+  artifactKey: Guid(4a34f7c0587752e4fa324d434e44fbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.Neutral.asset using Guid(4a34f7c0587752e4fa324d434e44fbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de63554e1c39f95a7563bd96203c96ac') in 0.002007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/LookRight.asset
+  artifactKey: Guid(cfb4261d4052c37469b453f039bf958c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/LookRight.asset using Guid(cfb4261d4052c37469b453f039bf958c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fa3eed3a938a4e91e3fc5fe2e5cf19') in 0.001769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006672 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/texture_7.png
+  artifactKey: Guid(ab07d00ed45dc4740bd13c146240e563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/texture_7.png using Guid(ab07d00ed45dc4740bd13c146240e563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f18eb9d59e537f7635a0c4dcac10395') in 0.043769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002227 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/texture_6.png
+  artifactKey: Guid(d435fcf054145014abb3e33a54723751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/texture_6.png using Guid(d435fcf054145014abb3e33a54723751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5985dc1a86672af0c24ce69e2fbbd543') in 0.009636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.Surprised.asset
+  artifactKey: Guid(44037ddd746fe194c83ab711e4502ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.Surprised.asset using Guid(44037ddd746fe194c83ab711e4502ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6631583ed97ff2d6f4a0d146c25ba72') in 0.002025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.MetaObject/Meta.asset
+  artifactKey: Guid(734c36f81806d59488e9d2a8ba5e087f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.MetaObject/Meta.asset using Guid(734c36f81806d59488e9d2a8ba5e087f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a6a4c09ad4513b87b43d0347c0b71b') in 0.002838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/texture_4.png
+  artifactKey: Guid(5e82be22234b5dd4997d424a06e863ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/texture_4.png using Guid(5e82be22234b5dd4997d424a06e863ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97eb626eb60f2f2550945d9239f2189a') in 0.007233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.Sorrow.asset
+  artifactKey: Guid(d58f7d7c91349c4429d7b12ab53ce978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.Sorrow.asset using Guid(d58f7d7c91349c4429d7b12ab53ce978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa503f39de98119faac30c6cdcf74f1') in 0.002135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.Joy.asset
+  artifactKey: Guid(12aa3ed5476050a468348e6e759a0bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.Joy.asset using Guid(12aa3ed5476050a468348e6e759a0bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f581865c4b4da4efb81969861e9b56f0') in 0.001914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Avatar/VrmAvatar.asset
+  artifactKey: Guid(975e9d0c92322464493d29b2c3c1a403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Avatar/VrmAvatar.asset using Guid(975e9d0c92322464493d29b2c3c1a403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cb0af5a668e87c32b18552ddaee0d5') in 0.003486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/LookDown.asset
+  artifactKey: Guid(5952c8361a8aabc41831c002546bdbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/LookDown.asset using Guid(5952c8361a8aabc41831c002546bdbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20790513f7fd2f7c163db91b23fcafb9') in 0.002013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/LookLeft.asset
+  artifactKey: Guid(0385aeb01674d6c42b73b8b4ee69dbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/LookLeft.asset using Guid(0385aeb01674d6c42b73b8b4ee69dbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13da15d3d359453e80369e82b36d75ff') in 0.001889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001509 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/texture_0.png
+  artifactKey: Guid(0b2b552f8a1d4ae448a7c56bfff9873d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/texture_0.png using Guid(0b2b552f8a1d4ae448a7c56bfff9873d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d284f2a95308de05966b9ce6d7aab5c') in 0.009504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.A.asset
+  artifactKey: Guid(e47cb207945f0ac4798f1663c2a045c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.A.asset using Guid(e47cb207945f0ac4798f1663c2a045c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232cf400823edb669cd9bd03d97c2641') in 0.003079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.Fun.asset
+  artifactKey: Guid(5c33411b98554564696f7bd826d56f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.Fun.asset using Guid(5c33411b98554564696f7bd826d56f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7e75869b0b64188e51149621d56995') in 0.001942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/MatcapWarp_01.png
+  artifactKey: Guid(0cd0fb2051095004ca0aeb0304efb6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/MatcapWarp_01.png using Guid(0cd0fb2051095004ca0aeb0304efb6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5ce3c24879f1f706a9046e816e9bcd') in 0.006856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.Blink_R.asset
+  artifactKey: Guid(99d81dbe55741504db0e907a4ed879d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.Blink_R.asset using Guid(99d81dbe55741504db0e907a4ed879d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7636c0de326e393a12c494ba10afc44e') in 0.001854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000826 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/texture_8.normal.png
+  artifactKey: Guid(3bd32587a791e10429d2ed2977ae1e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/texture_8.normal.png using Guid(3bd32587a791e10429d2ed2977ae1e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b27b29d983d4207e429ed70f0acfe7') in 0.017690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/texture_10.png
+  artifactKey: Guid(b2234165a750ce847935bc47bf1cc9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/texture_10.png using Guid(b2234165a750ce847935bc47bf1cc9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd805600b4763c36e8f97d0dae2f1fd68') in 0.006707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.Angry.asset
+  artifactKey: Guid(1dec58d4a50b29a418341bc6f82f5f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.Angry.asset using Guid(1dec58d4a50b29a418341bc6f82f5f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b040ae9ca5da13178e68bc1f069dbfd4') in 0.001906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/texture_9.png
+  artifactKey: Guid(fb58e841b56a2d44fb18beafdac56a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/texture_9.png using Guid(fb58e841b56a2d44fb18beafdac56a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02dcdd17b8442f474b8c33969de6bfa6') in 0.007652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.Blink_L.asset
+  artifactKey: Guid(3e185d3db6b32984dbc821d473b57f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.Blink_L.asset using Guid(3e185d3db6b32984dbc821d473b57f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0584a3446b03523f76f298f1b5f73f') in 0.001942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001048 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Meshes/Body (merged).baked.asset
+  artifactKey: Guid(12d152856ff61064aac0e65d09832fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Meshes/Body (merged).baked.asset using Guid(12d152856ff61064aac0e65d09832fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4afbce1a59fcedd248bbf8f70e8604e5') in 0.035743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.E.asset
+  artifactKey: Guid(313a6691a7f645049b72632ce08caa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.E.asset using Guid(313a6691a7f645049b72632ce08caa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3b4a36ed48adf6da92898b21d99eb4') in 0.001796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Materials/N00_000_00_Body_00_SKIN (Instance).asset
+  artifactKey: Guid(abef2678eb214a140805c40f36557029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Materials/N00_000_00_Body_00_SKIN (Instance).asset using Guid(abef2678eb214a140805c40f36557029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245338a1ed8db67d6457de5c5d818c0b') in 0.015462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.U.asset
+  artifactKey: Guid(ac24e4a2943a2944186cc050c0345bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.U.asset using Guid(ac24e4a2943a2944186cc050c0345bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806e795bac356d4ee6f0ec0eba00b4f0') in 0.002403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/texture_5.png
+  artifactKey: Guid(db89e7eb391b94d4a91f65bc7dcf1cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/texture_5.png using Guid(db89e7eb391b94d4a91f65bc7dcf1cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2067fa7da2abb550e622e487a4cbac') in 0.007252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.Blink.asset
+  artifactKey: Guid(e1488737fe587bb4fb3167f6564e7cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.Blink.asset using Guid(e1488737fe587bb4fb3167f6564e7cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3641505461303575ef7349cebe87f469') in 0.002030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.asset
+  artifactKey: Guid(a4e681d75b1835943b1185d933009d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.asset using Guid(a4e681d75b1835943b1185d933009d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07928dbc821e401447dd82110b249938') in 0.004114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001046 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/texture_1.png
+  artifactKey: Guid(c4307dbc291622a4989011b035f17cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/texture_1.png using Guid(c4307dbc291622a4989011b035f17cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357eab311462e0fa004c4a548e125446') in 0.009114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.O.asset
+  artifactKey: Guid(ced087b82dd12d241a174b861364873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.O.asset using Guid(ced087b82dd12d241a174b861364873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7e6a2c824617812fc0cea0ba68861a') in 0.001986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.I.asset
+  artifactKey: Guid(1b1a203e57a7dc2419a23426f95498f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.BlendShapes/BlendShape.I.asset using Guid(1b1a203e57a7dc2419a23426f95498f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1d6afd8aa5243765d4f06f239ccd05') in 0.001726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002281 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Meshes/Face (merged).baked.asset
+  artifactKey: Guid(7d8ace1c659912f47a79c5ad3042e6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Meshes/Face (merged).baked.asset using Guid(7d8ace1c659912f47a79c5ad3042e6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea25e58ebf8e067ea13e4643c4892157') in 0.082622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/texture_2.normal.png
+  artifactKey: Guid(04e604ac916873040be94290f31b66f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VRoid_Imports/Girl1v3/Girl1_v3_MidPoly.Textures/texture_2.normal.png using Guid(04e604ac916873040be94290f31b66f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61378c1e47d6bc3a97d0d1c913bf1255') in 0.007598 seconds 
